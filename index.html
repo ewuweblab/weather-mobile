@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+    <!-- RWD -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- For iOS 
+        * optionally set status bar style
+    -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Weather App">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+
+    <!-- For Android 
+        * optinally set theme color    
+    -->
+    <meta name="theme-color" content="black">
+
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="img/favicons/manifest.json">
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--  Styles  -->
+    <link rel="stylesheet" href="css/styles.processed.css">
+
+   <title> Weather App </title>
+
+</head>
+
+<body>
+  
+  <main class="uk-container">
+    
+    <article class="uk-card uk-card-default uk-card-large">
+      
+<!--  Header      -->
+      <section class="uk-card-header">
+        <h3 class="uk-card-title city">Location</h3>
+      </section>
+
+<!-- Body       -->
+      <section class="uk-card-body">
+         
+        <i class=""> </i>
+        <!--   <img class="thumbnail" src="https://placehold.it/100x100" alt="Placeholder"> -->
+         <h2><span class="temp">00</span>&#x2109;</h2>
+           
+      </section>
+
+<!-- Footer -->
+      <section class="uk-card-footer">
+          <a class="uk-button uk-button-default geolocation" href="">Get Location</a>
+      </section>
+    
+    </article>
+    
+
+
+  </main>
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/simpleweather.js"></script>
+  <script src="js/uikit.js"></script>
+  <script src="js/uikit-icons.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
